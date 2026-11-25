@@ -268,6 +268,10 @@ section{position:relative}
 /* ---------- Contact ---------- */
 #contact{min-height:110vh;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;text-align:center;padding:0 24px 12vh}
 #contact p{color:#d6d0f6;font-size:clamp(16px,1.4vw,19px);max-width:600px;line-height:1.6;margin:18px auto 30px}
+.degree-line{font-family:var(--mono);font-size:clamp(10.5px,.95vw,12.5px);letter-spacing:.14em;text-transform:uppercase;color:#cfc8f2;margin-top:-8px}
+.contact-lines{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;font-family:var(--mono);font-size:14px;color:#d9d3fb;margin:-10px 0 28px}
+.contact-lines a:hover{color:var(--magenta)}
+.contact-lines span{color:var(--muted)}
 .contact-actions{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
 .contact-fallback{display:none;font-size:clamp(50px,11vw,160px);margin-bottom:8vh}
 .no-gl .contact-fallback{display:block}
@@ -372,6 +376,7 @@ footer{position:relative;z-index:2;display:flex;justify-content:space-between;ga
   <a href="https://codeforces.com/profile/ra9122325614" target="_blank" rel="noopener" title="Codeforces" aria-label="Codeforces"><svg viewBox="0 0 24 24"><rect x="3" y="10" width="4" height="10" rx="1"/><rect x="10" y="4" width="4" height="16" rx="1"/><rect x="17" y="8" width="4" height="12" rx="1"/></svg></a>
   <a href="https://www.codechef.com/users/mrraj09" target="_blank" rel="noopener" title="CodeChef" aria-label="CodeChef"><span class="glyph">CC</span></a>
   <a href="https://leetcode.com/u/RajAnand09" target="_blank" rel="noopener" title="LeetCode" aria-label="LeetCode"><span class="glyph">LC</span></a>
+  <a href="tel:+916207008944" title="Call +91 62070 08944" aria-label="Call +91 62070 08944"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></a>
   <a href="mailto:ra9122325614@gmail.com" title="Email" aria-label="Email"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg></a>
 </nav>
 
@@ -383,6 +388,7 @@ footer{position:relative;z-index:2;display:flex;justify-content:space-between;ga
     <div class="hero-fallback chrome" aria-hidden="true">Raj Anand</div>
     <div class="hero-bottom">
       <div class="roles"><span class="pre">I'm a </span><span id="role">Backend Engineer</span></div>
+      <div class="degree-line">Bachelor of Technology · National Institute of Technology Agartala · 2023–2027</div>
       <div class="hero-cta">
         <a class="btn primary mag" href="#work">Enter the stage →</a>
         <button class="btn ghost mag" data-open-term>&gt;_ Open terminal</button>
@@ -390,8 +396,8 @@ footer{position:relative;z-index:2;display:flex;justify-content:space-between;ga
     </div>
     <div class="hint">SCROLL · MOVE YOUR MOUSE</div>
     <div class="ticker" aria-hidden="true"><div class="ticker-track">
-      <span>Open to SDE roles</span><span>NIT Agartala '27</span><span>3★ CodeChef · 1680+</span><span>Codeforces Pupil</span><span>600+ problems solved</span><span>GenAI · Node.js · C++</span>
-      <span>Open to SDE roles</span><span>NIT Agartala '27</span><span>3★ CodeChef · 1680+</span><span>Codeforces Pupil</span><span>600+ problems solved</span><span>GenAI · Node.js · C++</span>
+      <span>Open to SDE roles</span><span>B.Tech · NIT Agartala '27</span><span>3★ CodeChef · 1680+</span><span>Codeforces Pupil</span><span>600+ problems solved</span><span>GenAI · Node.js · C++</span>
+      <span>Open to SDE roles</span><span>B.Tech · NIT Agartala '27</span><span>3★ CodeChef · 1680+</span><span>Codeforces Pupil</span><span>600+ problems solved</span><span>GenAI · Node.js · C++</span>
     </div></div>
   </section>
 
@@ -401,9 +407,9 @@ footer{position:relative;z-index:2;display:flex;justify-content:space-between;ga
       <div class="about-grid">
         <span class="eyebrow rv">01 · General details</span>
         <h2 class="chrome sec-title rv" data-scramble>Who's on stage</h2>
-        <p class="about-lead rv">I'm <b>Raj</b>, a B.Tech student at <b>NIT Agartala</b> graduating in 2027. I like problems that sit between <em>algorithms</em> and <em>products</em>: a min-cash-flow engine in C++, a civic platform with role-based access, an AI pipeline that turns any PDF into a narrated lecture. Outside code, I lead the dev team at TRIAC and help run campus placements.</p>
+        <p class="about-lead rv">I'm <b>Raj</b>, pursuing a <b>Bachelor of Technology (B.Tech)</b> at the <b>National Institute of Technology Agartala</b>, graduating in May 2027. I like problems that sit between <em>algorithms</em> and <em>products</em>: a min-cash-flow engine in C++, a civic platform with role-based access, an AI pipeline that turns any PDF into a narrated lecture. Outside code, I lead the dev team at TRIAC and help run campus placements.</p>
         <div class="facts">
-          <div class="fact glass holo flip tilt"><div class="k">B.Tech · NIT Agartala</div><div class="v">7.81</div><p>CGPA · Class of May 2027</p></div>
+          <div class="fact glass holo flip tilt"><div class="k">Degree · B.Tech</div><div class="v">7.81</div><p>Bachelor of Technology, National Institute of Technology Agartala · CGPA · 2023–2027</p></div>
           <div class="fact glass holo flip tilt"><div class="k">Class XII · PCM</div><div class="v">76.33%</div><p>Rajo Singh College, Sheikhpura · 2023</p></div>
           <div class="fact glass holo flip tilt"><div class="k">Focus</div><div class="v">Backend</div><p>Node.js · Express · MongoDB · GenAI pipelines</p></div>
           <div class="fact glass holo flip tilt"><div class="k">Status</div><div class="v">Open</div><p>SDE internships &amp; full-time roles, 2026–27</p></div>
@@ -597,15 +603,17 @@ footer{position:relative;z-index:2;display:flex;justify-content:space-between;ga
     <span class="eyebrow rv">06 · Encore</span>
     <h2 class="sr">Contact</h2>
     <p class="rv">Open to SDE internships and full-time roles. If you're hiring for backend, full-stack or GenAI work, I'd like to hear from you.</p>
+    <div class="contact-lines rv"><a href="mailto:ra9122325614@gmail.com">ra9122325614@gmail.com</a><span>·</span><a href="tel:+916207008944">+91 62070 08944</a><span>·</span><span>B.Tech, NIT Agartala '27</span></div>
     <div class="contact-actions rv">
       <button class="btn primary mag" id="copyMail">Copy email</button>
       <a class="btn ghost mag" href="mailto:ra9122325614@gmail.com">Send mail ↗</a>
+      <a class="btn ghost mag" href="tel:+916207008944">Call +91 62070 08944</a>
       <a class="btn ghost mag" href="https://www.linkedin.com/in/raj-anand-19219a2a9/" target="_blank" rel="noopener">LinkedIn</a>
       <a class="btn ghost mag" href="https://github.com/BeingRoaster-Raj" target="_blank" rel="noopener">GitHub</a>
     </div>
   </section>
 </main>
-<footer><span>© 2026 Raj Anand · NIT Agartala</span><span>Three.js particles · press ` for the terminal</span></footer>
+<footer><span>© 2026 Raj Anand · B.Tech, NIT Agartala · +91 62070 08944</span><span>Three.js particles · press ` for the terminal</span></footer>
 
 <div id="term-modal" role="dialog" aria-modal="true" aria-label="Terminal">
   <div class="term">
@@ -831,12 +839,12 @@ footer{position:relative;z-index:2;display:flex;justify-content:space-between;ga
   const link = (u, t) => `<a href="${u}" target="_blank" rel="noopener">${t || u}</a>`;
   const C = {
     help: () => `<span class="y">commands</span>\n  <span class="c">whoami</span>       who is Raj\n  <span class="c">projects</span>     flagship builds\n  <span class="c">experience</span>   work + leadership\n  <span class="c">skills</span>       the toolkit\n  <span class="c">stats</span>        competitive programming\n  <span class="c">contact</span>      ways to reach me\n  <span class="c">resume</span>       open the PDF\n  <span class="c">goto</span> &lt;sec&gt;   about | work | journey | arena | skills | contact\n  <span class="c">github</span> · <span class="c">linkedin</span> · <span class="c">cf</span> · <span class="c">codechef</span> · <span class="c">leetcode</span>\n  <span class="c">clear</span> · <span class="c">exit</span>\n  <span class="d">psst: try "sudo hire raj"</span>`,
-    whoami: () => `Raj Anand · B.Tech @ NIT Agartala (2027) · CGPA 7.81\nBackend + GenAI + competitive programming.\nDev Team Lead @ TRIAC · Training &amp; Placement Coordinator.`,
+    whoami: () => `Raj Anand · Bachelor of Technology, National Institute of Technology Agartala (2023–2027) · CGPA 7.81\nphone: +91 62070 08944\nBackend + GenAI + competitive programming.\nDev Team Lead @ TRIAC · Training &amp; Placement Coordinator.`,
     projects: () => `<span class="g">✔</span> <b>Probso</b>        PDF → narrated, animated video lectures  ${link('https://www.probso.live/','live')}\n<span class="g">✔</span> <b>Jansevak</b>      civic issue tracker with RBAC            ${link('https://jansevak-five.vercel.app/','live')}\n<span class="g">✔</span> <b>Settlement</b>    min-cash-flow engine in C++17            ${link('https://github.com/BeingRoaster-Raj/Cryptocurrency-Multi-Wallet-Settlement-System','code')}\n<span class="d">+ 12 more → type "github"</span>`,
     experience: () => `<span class="y">2025</span>  Web Developer · OutriX (Oct–Dec)\n<span class="y">2025</span>  Frontend Developer · CodexIntern (Jul–Aug) · −25% load time\n<span class="y">2024→</span> Dev Team Lead · TRIAC Club · +30% members\n<span class="y">2023→</span> Training &amp; Placement Coordinator · NIT Agartala`,
     skills: () => `<span class="c">lang</span>     C++ C JavaScript TypeScript Python SQL\n<span class="c">backend</span>  Node.js Express REST FastAPI Django\n<span class="c">data</span>     MongoDB PostgreSQL Firebase\n<span class="c">ai</span>       LLM pipelines OCR TTS Manim`,
     stats: () => `CodeChef    <span class="m">███████████░░░░</span> 1680+  3★  (400+ solved)\nCodeforces  <span class="m">█████████░░░░░░</span> 1350+  Pupil (100+ solved)\nLeetCode    <span class="m">█████░░░░░░░░░░</span> 100+ attempted`,
-    contact: () => `email     <a href="mailto:${EMAIL}">${EMAIL}</a>\nlinkedin  ${link('https://www.linkedin.com/in/raj-anand-19219a2a9/','raj-anand')}\ngithub    ${link('https://github.com/BeingRoaster-Raj','BeingRoaster-Raj')}`,
+    contact: () => `email     <a href="mailto:${EMAIL}">${EMAIL}</a>\nphone     <a href="tel:+916207008944">+91 62070 08944</a>\nlinkedin  ${link('https://www.linkedin.com/in/raj-anand-19219a2a9/','raj-anand')}\ngithub    ${link('https://github.com/BeingRoaster-Raj','BeingRoaster-Raj')}`,
     resume: () => { open('Raj_Anand_Resume.pdf', '_blank'); return 'opening Raj_Anand_Resume.pdf …'; },
     github: () => { open('https://github.com/BeingRoaster-Raj', '_blank'); return 'opening github …'; },
     linkedin: () => { open('https://www.linkedin.com/in/raj-anand-19219a2a9/', '_blank'); return 'opening linkedin …'; },
